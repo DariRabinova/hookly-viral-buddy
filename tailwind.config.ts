@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					glow: 'hsl(var(--primary-glow))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -42,7 +43,12 @@ export default {
 				},
 				accent: {
 					DEFAULT: 'hsl(var(--accent))',
-					foreground: 'hsl(var(--accent-foreground))'
+					foreground: 'hsl(var(--accent-foreground))',
+					orange: 'hsl(var(--accent-orange))',
+					pink: 'hsl(var(--accent-pink))',
+					green: 'hsl(var(--accent-green))',
+					yellow: 'hsl(var(--accent-yellow))',
+					blue: 'hsl(var(--accent-blue))'
 				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',
