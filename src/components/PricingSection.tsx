@@ -59,10 +59,10 @@ const PricingSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Pricing 💵
+            Future Pricing 💵
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Choose the plan that fits your content creation needs
+            Transparent pricing when we launch. Join the waitlist now for free early access!
           </p>
         </div>
         
@@ -112,7 +112,7 @@ const PricingSection = () => {
                   size="lg" 
                   className="w-full"
                 >
-                  {plan.popular ? "Start Free Today 🚀" : "Get Started"}
+                  {plan.popular ? "Join Waitlist 🚀" : "Join Waitlist"}
                 </Button>
               </div>
             </div>
@@ -121,7 +121,7 @@ const PricingSection = () => {
         
         <div className="text-center">
           <p className="text-muted-foreground mb-4">
-            All plans include a 14-day free trial • No credit card required
+            Join the waitlist now for free early access • No payment required
           </p>
           <div className="flex items-center justify-center space-x-2 text-sm text-muted-foreground">
             <span>🔒</span>
